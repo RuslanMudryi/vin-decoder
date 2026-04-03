@@ -2,6 +2,7 @@
 
 A web application for decoding vehicle VIN codes using the [NHTSA public API](https://vpic.nhtsa.dot.gov/api/).
 
+**Live demo:** _https://vin-decoder-swart.vercel.app/ 
 
 ---
 
@@ -32,7 +33,7 @@ A web application for decoding vehicle VIN codes using the [NHTSA public API](ht
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/vin-decoder.git
+git clone https://github.com/RuslanMudryi/vin-decoder.git
 cd vin-decoder
 
 # 2. Install dependencies
