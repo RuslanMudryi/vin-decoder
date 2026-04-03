@@ -2,7 +2,7 @@
 
 A web application for decoding vehicle VIN codes using the [NHTSA public API](https://vpic.nhtsa.dot.gov/api/).
 
-**Live demo:** _https://vin-decoder-swart.vercel.app/ 
+**Live demo:** https://vin-decoder-swart.vercel.app/ 
 
 ---
 
