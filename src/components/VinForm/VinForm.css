@@ -1,0 +1,82 @@
+.vin-form {
+  max-width: 560px;
+}
+
+.vin-form__label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.vin-form__input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.vin-form__input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.625rem 0.875rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  background: var(--color-surface);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  outline: none;
+}
+
+.vin-form__input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.15);
+}
+
+.vin-form__input--error {
+  border-color: var(--color-error);
+}
+
+.vin-form__input--error:focus {
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+
+.vin-form__button {
+  padding: 0.625rem 1.25rem;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+
+.vin-form__button:hover:not(:disabled) {
+  background: var(--color-primary-hover);
+}
+
+.vin-form__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.vin-form__error {
+  margin-top: 0.4rem;
+  font-size: 0.8125rem;
+  color: var(--color-error);
+}
+
+@media (max-width: 560px) {
+  .vin-form__input-row {
+    flex-direction: column;
+  }
+
+  .vin-form__button {
+    width: 100%;
+  }
+}

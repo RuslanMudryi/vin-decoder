@@ -1,0 +1,8 @@
+.error-message {
+  padding: 0.875rem 1rem;
+  background: var(--color-error-bg);
+  color: var(--color-error);
+  border: 1px solid #fecaca;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+}

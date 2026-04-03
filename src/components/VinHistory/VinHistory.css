@@ -1,0 +1,38 @@
+.vin-history {
+  margin-top: 1.25rem;
+  max-width: 560px;
+}
+
+.vin-history__title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.vin-history__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.vin-history__item {
+  padding: 0.3rem 0.75rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: 20px;
+  background: var(--color-surface);
+  font-size: 0.8125rem;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.vin-history__item:hover {
+  border-color: var(--color-primary);
+  background: var(--color-accent);
+}
